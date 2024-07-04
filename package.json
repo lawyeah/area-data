@@ -1,10 +1,11 @@
 {
-  "name": "area-data",
-  "version": "5.0.6",
-  "author": "pomysky@gmail.com",
+  "name": "@lawyeah/area-data",
+  "version": "1.1.0",
   "description": "中国省、市、区数据(含港澳台)",
   "license": "MIT",
-  "main": "./data.js",
+  "main": "./index.js",
+  "type": "module",
+  "types": "index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
@@ -14,11 +15,9 @@
     "url": "https://github.com/dwqs/area-data/issues"
   },
   "files": [
-    "data.js",
     "package.json",
-    "pca.js",
-    "pcaa.js",
-    "README.md"
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "china",
@@ -30,7 +29,7 @@
     "中国省份"
   ],
   "devDependencies": {
+    "clean-pkg-json": "^1.2.0",
     "lodash": "^4.17.4"
-  },
-  "dependencies": {}
+  }
 }
